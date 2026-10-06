@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="author" content="Daniel vega"/>
+    <title>1DAW</title>
+    <link rel="stylesheet" href="estilofixed.css">
+</head>
+<body>
+    <form action="datos.php" method="GET">
+        <h1>Profesorado del horario</h1>
+        <select name="profesor" id="profesor">
+            <option value="Isabel Muñoz Dominguez">Isabel Muñoz Dominguez</option>
+            <option value="Francisco Jose Garcia Ramirez">Francisco Jose Garcia Ramirez</option>
+            <option value="Alberto Dominguez">Alberto Dominguez</option>
+            <option value="Tomás Mogío González">Tomás Mogío González</option>
+            <option value="Jose María Aretio Gómez">Jose María Aretio Gómez</option>
+        </select><br/>
+        <div id="check">
+        <input name="asignatura" type="checkbox" value="BBDD" id="BBDD"/><label for="BBDD">BBDD</label><br/>
+        <input name="asignatura" type="checkbox" value="LMSGI" id="LMGSI"/><label for="LMGSI">LMSGI</label><br/>
+        <input name="asignatura" type="checkbox" value="PROG" id="PROG"/><label for="PROG">PROG</label><br/>
+        <input name="asignatura" type="checkbox" value="SSIN" id="SSIN"/><label for="SSIN">SSIN</label><br/>
+        <input name="asignatura" type="checkbox" value="EED" id="EED"/><label for="EED">EED</label><br/>
+        <input name="asignatura" type="checkbox" value="Ingles" id="Ingles"/><label for="Ingles">Ingles</label><br/>
+        <input name="asignatura" type="checkbox" value="IPE 1" id="IPE 1"/><label for="IPE 1">IPE 1</label><br/>
+        </div>
+        <br/>
+        <input type="text" id="horas"name="horas"><br/>
+        <label id="info" for="informacion"><i>Informacion</i></label><br/>
+        <textarea name="informacion" id="informacion"></textarea><br/>
+        <input type="submit" name="enviar" value="Enviar">
+    </form>
+</body>
+</html>

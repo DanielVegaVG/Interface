@@ -1,0 +1,39 @@
+form{
+    width: 800px;
+    height: 400px;
+    border:2px solid black;
+    margin: 100px 0 60px 0;
+    padding: 0 0 0 40px;
+    background-color: #dd8f8f;
+    box-sizing: content-box;
+
+}
+h1{
+    margin: 10px 0 10px 0;
+}
+body{
+    background-color: #fce6e6;
+    padding: 0 300px 0 300px;
+}
+select{
+    margin:0 0px 10px 0;
+}
+input{
+    margin:0 0 0 0;
+}
+textarea{
+    margin:0 0 0 0;
+}
+#info{
+    margin: 0px 0 5px 0px;
+}
+#check{
+    margin: 2px 0 0 0;
+    padding: 
+}
+#check input{
+    margin: 0 4px 0 0;
+}
+#horas{
+    padding: 2px 4px 2px 4px;
+}
