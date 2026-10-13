@@ -3,27 +3,27 @@ html{
     background-color: #001aff;
 }
 body {
-    width: 57.223%; /*840*/
+    width: 58.333%; /*840 / 1440 × 100 = 58.333%*/
     background-color: #d7efff;
-    padding: 0 20.834% 0 20.834%;
+    padding: 0 20.834% 0 20.834%; /*300 / 1440 × 100 = 20.833%*/
 }
 
 form {
     width: 94.8%;
     height: 100%;
     border: 2px solid black;
-    margin: 12.137% 0 3% 0;
-    padding: 0 0 4.855% 4.855%;
+    margin: 11.905% 0 3% 0; /*100 / 840 × 100 = 11.905%*/
+    padding: 0 0 4.762% 4.762%; /*40 /840 x 100 = 4.762%*/
     background-color: #88c6f8;
     box-sizing: content-box;
 }
 
 h1 {
-    margin: 1.282% 0;
+    margin: 1.316% 0; /*10 / 760 × 100 = 1.316%*/
 }
 
 select {
-    margin: 0 0 1.282% 0;
+    margin: 0 0 1.316% 0;
 }
 #info {
     margin: 0 0 0.5% 0;
