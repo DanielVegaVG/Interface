@@ -1,0 +1,18 @@
+body{
+    background-color: bisque;
+}
+div{
+    background-color: rgb(255, 195, 122);
+    width: 500px;
+    height: 400px;
+    border:2px solid black;
+    margin: 100px 0 0 100px;
+}
+p{
+    background-color: rgb(139, 90, 31);
+    width: 200px;
+    height: 200px;
+    top: 10px;
+    left: 20px;
+    position: absolute;
+}

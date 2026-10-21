@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Prueba Imágenes</title>
+</head>
+<body>
+    <header>
+        <h1>PRUEBA POSICIONAMIENTO IMAGENES</h1>
+    </header>
+    <main>
+        <div>
+            <h2>Posiciones por defecto</h2>
+            <img width=400px src="pinguinos/pinguinito.jpg" alt="">
+            <img width=500px src="pinguinos/Pinguino.jpg" alt="">
+            <img width=500px src="pinguinos/pinguinoloro.jpg" alt="">
+            <!--Por defecto las imagenes actuan como elementos que tienen in-line-block, es decir, funcionan
+            como elementos en linea en el aspecto de que se colocan uno detrás de otro pero se les puede modificar
+            el tamaño y altura, si el elemento no cabe al estar detras de otro se coloca debajo de este-->
+        </div>
+        <div>
+            <h2>Posicionamiento relativo con z-index</h2>
+            <img id="mini" src="pinguinos/pinguinito.jpg" alt="imagen de pinguinito pequeño">
+            <img id="normal" src="pinguinos/Pinguino.jpg" alt="imagen de Pinguino normal">
+            <img id="loro" src="pinguinos/pinguinoloro.jpg" alt="imagen de pinguino de pagina web Loro Parque">
+            <!--Usando Z-index podemos poner los elementos en distintas capas, pudiendo tapar unas a otras
+            y dandole distintos niveles. Al tener un posicionamiento relativo podemos también mover las cajas o 
+            elementos dentro del contenedor, pero siguen ocupando el espacio anterior-->
+        </div>
+        <div>
+            <br><br><br><br><br><br>
+            <h2>Posicionamiento relativo con z-index (con texto)</h2>
+            <img id="mini" src="pinguinos/pinguinito.jpg" alt="imagen de pinguinito pequeño">
+            <p>Esta es una imagen de un pinguino bebé</p>
+            <img id="normal" src="pinguinos/Pinguino.jpg" alt="imagen de Pinguino normal">
+            <img id="loro" src="pinguinos/pinguinoloro.jpg" alt="imagen de pinguino de pagina web Loro Parque">
+            <!--Los p cuentan como elementos en linea y ocupan espacio dentro del div, como aunque los elementos
+            no se muestren donde se ven en la página ocupan ese espacio, por lo que pueden desplazarlo-->
+        </div>
+        <div>
+            <br><br><br><br><br>
+            <h2>Posicionamiento con float</h2>
+            <img id="minifloat" src="pinguinos/pinguinito.jpg" alt="imagen de pinguinito pequeño">
+            <img id="normalfloat" src="pinguinos/Pinguino.jpg" alt="imagen de Pinguino normal">
+            <img id="lorofloat" src="pinguinos/pinguinoloro.jpg" alt="imagen de pinguino de pagina web Loro Parque">
+            <!--Los Float son relevantes, a menos que el otro elemnto esté tambien flotado este no será capaz
+            de verlo y se superpondrán uno encima del otro-->
+        </div>
+        <div>
+            <br><br><br><br>
+            <h2>Posicionamiento mezclando float con relative</h2>
+            <img id="minifloat" src="pinguinos/pinguinito.jpg" alt="imagen de pinguinito pequeño">
+            <img id="normal" src="pinguinos/Pinguino.jpg" alt="imagen de Pinguino normal">
+            <img id="loro" src="pinguinos/pinguinoloro.jpg" alt="imagen de pinguino de pagina web Loro Parque">
+            <!--Al ser float el primer elemento se intenta colocar junto con los demás float, por otra parte los
+            relative son capaces de ver al elemento que usa float y se colocan respecto a él-->
+        </div>
+        <div>
+            <br><br><br><br><br><br>
+            <h2>Posicionamiento mezclando relative con float</h2>
+            <img id="relativemini" src="pinguinos/pinguinito.jpg" alt="imagen de pinguinito pequeño">
+            <img id="normalfloat" src="pinguinos/Pinguino.jpg" alt="imagen de Pinguino normal">
+            <img id="lorofloat" src="pinguinos/pinguinoloro.jpg" alt="imagen de pinguino de pagina web Loro Parque">
+            <!--En esta prueba he comprobado la preferencia respecto a la colocación que tienen los relative
+            y float. En caso de ser float los elementos que tengan esta característica se llevarán el espacio
+            correspondiente, pero los elementos que tengan relative serán capaces de colocarse de manera acorde,
+            siendo visibles entre sí. En este caso he usado 2 floats left y un relative y el relative se ha colocado
+            junto a los float-->
+        </div>
+        <div>
+            <h2>Posicionamiento mezclando absolute con float</h2>
+            <img id="absolutemini" src="pinguinos/pinguinito.jpg" alt="imagen de pinguinito pequeño">
+            <img id="normalfloat" src="pinguinos/Pinguino.jpg" alt="imagen de Pinguino normal">
+            <img id="lorofloat" src="pinguinos/pinguinoloro.jpg" alt="imagen de pinguino de pagina web Loro Parque"> 
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
