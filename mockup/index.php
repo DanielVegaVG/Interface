@@ -28,7 +28,7 @@ $asignaturas = [
         </div>
     </header>
     <form method="post" action="guardar_horario.php">
-        <p>Clase: 2DAW</p>
+        <p>- Clase: "2DAW"</p>
         <table>
             <thead>
                 <tr>
@@ -58,7 +58,8 @@ $asignaturas = [
                 <?php endfor; ?>
             </tbody>
         </table>
-        <input type="submit" value="Guardar horario" disabled>
+        <input type="submit" value="Guardar" disabled>
+        <input type="submit" value="Volver" disabled>
     </form>
 </body>
 </html>
