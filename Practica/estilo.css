@@ -1,0 +1,86 @@
+html{
+    width:1200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    width:1160px;
+    background-color: #ffffff;
+}
+header{
+    width: 1160px;
+    height: 120px;
+    padding: 20px;
+    background-color: #205A82;
+}
+header div{
+    margin-top:40px;
+    margin-left:20px;
+    display: inline-block;
+}
+header p{
+    font-size: 14px;
+}
+header img{
+    margin: 50px 60px 0 0;
+    float: right;
+}
+#cajaiz{
+    width: 300px;
+    height: 80px;
+}
+#cajader{
+    width: 170px;
+    height: 80px;
+}
+nav{
+    width: 1160px;
+    height: 60px;
+    padding: 10px 20px 10px 20px;
+    background-color: #5AAFE0;
+}
+h1{
+    font-size: 32px bold;
+    color: white;
+}
+h2{
+    font-size: 20px bold;
+}
+p{
+    font-size: 16px;
+}
+label{
+    font-size: 14px;
+}
+.botones{
+    width: 120px;
+    height: 40px;
+    padding: auto;
+    margin: 100px;
+    background-color: #07579B;
+}
+.botones :disabled{
+    background-color:transparent;
+}
+#boton_res{
+    width: 400px;
+    border: 1px;
+    background-color: #2D9B48;
+}
+#section_principal{
+    width: 1160px;
+    height: 350px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+#section_inferior{
+    width: 1160px;
+    height: 777px;
+    padding: 15px 0 15px 20px;
+    background-color: #ffffff;
+}
+footer{
+    width: 1160px;
+    height: 80px;
+    padding: 20px;
+    background-color: #205A82;
+}
